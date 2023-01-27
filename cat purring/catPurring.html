@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crinkle sounds</title>
+    <link rel="stylesheet" href="catPurring.css">
+    <link rel="icon" href="data:,">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container-countdown">
+        <p id="countdown">5 : 00</p>
+        <div class="container-buttons">
+            <button id="play"><img id="iconPlay" src="https://cdn.glitch.global/eb75a835-7885-4846-b82e-ffc76e6b3f22/icon_play.png?v=1653691678176"></button>
+            <button id="back"><img src="https://cdn.glitch.global/eb75a835-7885-4846-b82e-ffc76e6b3f22/icon_home.png?v=1653691672299"></button>
+        </div>
+    </div>
+    <audio id="player" paused loop>
+        <source src="https://cdn.glitch.global/eb75a835-7885-4846-b82e-ffc76e6b3f22/audio_cat.mp3?v=1653721754034" type="audio/mp3">
+    </audio>
+    <video id="bgVideo" autoplay loop muted defaultmuted playsinline>
+        <source src="https://cdn.glitch.global/eb75a835-7885-4846-b82e-ffc76e6b3f22/video_cat_1.mp4?v=1653729205496" type="video/mp4">
+    </video>
+    <script src="catPurring.js"></script>
+</body>
+</html>
